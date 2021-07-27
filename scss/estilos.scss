@@ -180,7 +180,7 @@ input:hover{
 }
 
 /*Mobile Styles*/
-@media all screen and (max-width: 576px){
+@media only screen and (max-width: 576px){
 	#header a {
 	font-size: 14px;
   	float: left;
@@ -191,7 +191,7 @@ input:hover{
   	}
 
 	ul{
-	font-size: 30px;
+	font-size: 20px;
 	text-align: left;
 	display: inline-block;
 	}
@@ -207,7 +207,7 @@ input:hover{
 	}
 	imglogos{
 		height: 20px;
-		width: 30px;
+		width: 40px;
 	}
 }
       
