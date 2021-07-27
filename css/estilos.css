@@ -1,7 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: 'Noto Sans JP', sans-serif;
-  color: #000000; }
+  font-family: 'Open Sans', sans-serif; }
 
 .header {
   background-image: url(../media/inicio.png);
@@ -29,15 +28,21 @@ li {
   padding: 0 30px; }
 
 p {
-  color: solid #000000; }
+  color: solid #000000;
+  margin-top: 24px;
+  margin-bottom: 24px; }
 
 .encabezado {
   widht: 100%;
   height: 75px;
   text-align: center;
-  font-size: 39px;
-  color: #171717;
+  font-size: 26px;
+  color: white;
+  letter-spacing: 5px;
+  background: #eeeeee;
+  background: linear-gradient(108deg, #eeeeee 0%, #252526 16%, black 71%, #eeeeee 100%);
   font-style: italic;
+  padding-top: 12px;
   margin-top: 16px; }
 
 .imgC {
@@ -48,12 +53,9 @@ p {
 
 .img {
   width: 100%;
-  height: 275px;
-  border: 10px solid #232323; }
-
-.textoImgs {
-  color: #171717;
-  font-style: italic; }
+  height: 300px;
+  border: 10px solid #232323;
+  margin-bottom: 25px; }
 
 .textoMain {
   margin-top: 10px;
