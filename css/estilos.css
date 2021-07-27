@@ -15,10 +15,12 @@ body {
 
 .tittle {
   text-align: center;
-  color: #FDF6F0;
+  color: #F2DAC3;
   padding-top: 200px;
-  font-size: 50px;
+  font-size: 45px;
   font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
   letter-spacing: 13px; }
 
 .bg-color {
@@ -193,4 +195,7 @@ input:hover {
     font-size: 20px;
     text-align: center; }
   #footer {
-    height: 180px; } }
+    height: 180px; }
+  imglogos {
+    height: 20px;
+    width: 30px; } }
