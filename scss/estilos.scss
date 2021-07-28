@@ -72,8 +72,9 @@ p{
 	text-align: center;
 }
 .editRedes{
-	height: 14px;
-	width: 14px;
+	height: 26px;
+	width: 24px;
+	margin-right: 5px;
 }
 .logos{
 	width: 40px;
@@ -101,6 +102,11 @@ p{
 }
 .text{
 	text-align: center;
+}
+.textDatos{
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
 }
 .fondo{
 	background-color: #0C4271;
@@ -152,31 +158,6 @@ input:hover{
 	cursor: pointer;
 	transform: translateX(-2px);
 	transition: all cubic-bezier(0.215, 0.610, 0.355, 1)
-}
-#footerC{
-	background-color: #0C4271;
-	width: 80%;
-	height: 150px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	margin-top: 20px;
-	color: white;
-	margin-left: 200px;
-	margin-right: 200px;
-}
-
-/*Css ¿Quienes somos?*/
-#footerQ{
-	background-color: #0C4271;
-	width: 80%;
-	height: 150px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	margin-top: 20px;
-	color: white;
-	margin-left: 200px;
 }
 
 /*Mobile Styles*/
