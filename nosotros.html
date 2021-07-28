@@ -11,17 +11,33 @@
 </head>
 <body>
   <!------Header------>
-  <div class="container-fluid">
-    <nav class="navbar fixed-top navbar-light bg-color">
+    <div class="container-fluid px-0">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark px-0">
       <a class="navbar-brand" href="index.html">
-        <img class="logoProyecto" src="media/logolisto.jpg" width="45" height="40" class="d-inline-block align-top" alt="" loading="lazy">
+        <img class="logoProyecto" src="media/logolisto.jpg" alt="Rham">
       </a>
-      <ul>
-        <li><a class="links" href="programacion.html">Programacion</a></li>
-        <li><a class="links" href="gaming.html">Gaming</a></li>
-        <li><a class="links" href="nosotros.html">Nosotros</a></li>
-        <li><a class="links" href="contacto.html">Contacto</a></li>
-      </ul>
+      <button class="navbar-toggler mr-4" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-light bg-dark rounded-circle" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light bg-dark rounded-circle" href="gaming.html">Gaming</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light bg-dark rounded-circle" href="programacion.html">Programacion</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light bg-dark rounded-circle" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light bg-dark rounded-circle" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <div class="headerOtherSections">
       <h1 class="tittle">Nosotros</h1>
@@ -40,7 +56,7 @@
         <div class="card-header" id="headingOne">
           <h5 class="mb-0">
             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            ¿Qué ventaja existe al tener un teclado gamer?
+            ¿Qué ventajas tiene un teclado gamer?
             </button>
           </h5>
         </div>
@@ -74,10 +90,10 @@
     <div id="footer">
       <div>
         <p class="text-muted small mb-4 mb-lg-0">&copy; RHAM 2021. Todos los derechos reservados.</p>
-        <img class="editRedes" src="media/instagram.png"alt="redsocial"><a href="https://www.instagram.com/?hl=es">Instagram</a>
+        <img class="editRedes" src="media/instagram.png"alt="redsocial"><a class="links" href="https://www.instagram.com/?hl=es">Instagram</a>
       </div>
       <div>
-        <img class="editRedes" src="media/twitter.png" alt="redsocial"><a href="https://twitter.com/?lang=es">Twitter</a>
+        <img class="editRedes" src="media/twitter.png" alt="redsocial"><a class="links" href="https://twitter.com/?lang=es">Twitter</a>
       </div>
     </div>
   </div>    
