@@ -1,85 +1,85 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/estilos.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <title>Comunicacion, Medios de Contacto y Ayuda al usuario</title>
-  <meta name="description" content="Informacion">
-</head>
-<body>
-    <!------Header------>
-  <div class="container-fluid px-0">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark px-0">
-      <a class="navbar-brand" href="index.html">
-        <img class="logoProyecto" src="media/logolisto.jpg" alt="Rham">
-      </a>
-      <button class="navbar-toggler mr-4" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link text-light bg-dark rounded-circle" href="index.html">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link text-light bg-dark rounded-circle" href="gamingyprogramacion.html">Gaming & Programacion</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link text-light bg-dark rounded-circle" href="guia.html">Guia Keycaps</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link text-light bg-dark rounded-circle" href="nosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link text-light bg-dark rounded-circle" href="contacto.html">Contacto</a>
-          </li>
-        </ul>
+<html lang= "en">
+  <head>
+    <meta charset= "utf-8">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel= "stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity= "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin= "anonymous">
+    <link rel= "stylesheet" type= "text/css" href= "css/estilos.css">
+    <link href= "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel= "stylesheet">
+    <meta name= "description" content= "Informacion">
+    <title>Comunicacion, Medios de Contacto y Ayuda al usuario</title>
+  </head>
+  <body>
+      <!------Header------>
+    <div class= "container-fluid px-0">
+      <nav class= "navbar fixed-top navbar-expand-lg navbar-light bg-dark px-0">
+        <a class= "navbar-brand" href= "index.html">
+          <img class= "logoProyecto" src= "media/logolisto.jpg" alt= "Rham">
+        </a>
+        <button class= "navbar-toggler mr-4" type= "button" data-toggle= "collapse" data-target= "#navbarNav" aria-controls= "navbarNav" aria-expanded= "false" aria-label= "Toggle navigation">
+          <span class= "navbar-toggler-icon"></span>
+        </button>
+        <div class= "collapse navbar-collapse" id= "navbarNav">
+          <ul class= "navbar-nav">
+            <li class= "nav-item active">
+              <a class= "nav-link text-light bg-dark rounded-circle" href= "index.html">Home</a>
+            </li>
+            <li class= "nav-item active">
+              <a class= "nav-link text-light bg-dark rounded-circle" href= "gamingyprogramacion.html">Gaming & Programacion</a>
+            </li>
+            <li class= "nav-item active">
+              <a class= "nav-link text-light bg-dark rounded-circle" href= "guia.html">Guia Keycaps</a>
+            </li>
+            <li class= "nav-item active">
+              <a class= "nav-link text-light bg-dark rounded-circle" href= "nosotros.html">Nosotros</a>
+            </li>
+            <li class= "nav-item active">
+              <a class= "nav-link text-light bg-dark rounded-circle" href= "contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class= "headerOtherSections">
+        <h1 class= "tittle">Contacto</h1>
       </div>
-    </nav>
-    <div class="headerOtherSections">
-      <h1 class="tittle">Contacto</h1>
     </div>
-  </div>
-  <div class="container">
-		<div class="text">
-			<form action="formulario.html" method="POST" enctySpe="multipart/form-data">
+    <div class= "container">
+  		<div class= "text">
+  			<form action= "formulario.html" method= "POST" enctySpe= "multipart/form-data">
+          <div>
+            <label>Nombre:</label>
+            <input type= "nombre" name= "nombre">
+          </div>
+  				<div>
+            <label>Apellido:</label>
+              <input type= "apellido" name= "apellido">
+          </div>
+  			 <div>
+  			   <label>E-mail:</label>
+  				  <input type= "e-mail" name= "e-mail">
+          </div>
+  			 <p class= "textDatos">Correo de contacto</p>
+  			 <p class= "text"><img class= "imgLogos" src= "media/emaillogo.png" alt= "logoemail">E-mail: asd@gmail.com</p>
+  			 <input class= "inputConsulta"	type= "text" name= "consulta" placeholder= "Consulta">
+         <div>
+          <input type= "reset" name= "resetear" value= "Limpiar formulario">
+          <input type= "submit" name= "sube_form" value= "Enviar formulario">
+         </div>
+        </form>
+  		</div>
+      <!------Footer------>
+      <div id= "footer">
         <div>
-          <label>Nombre:</label>
-          <input type="nombre" name="nombre">
+          <p class= "text-muted small mb-4 mb-lg-0">&copy; RHAM 2021. Todos los derechos reservados.</p>
+          <img class= "editRedes" src= "media/instagram.png" alt= "redsocial"><a class= "links" href= "https://www.instagram.com/?hl=es">Instagram</a>
         </div>
-				<div>
-          <label>Apellido:</label>
-            <input type="apellido" name="apellido">
+        <div>
+          <img class= "editRedes" src= "media/twitter.png" alt= "redsocial"><a class= "links" href= "https://twitter.com/?lang=es">Twitter</a>
         </div>
-			 <div>
-			   <label>E-mail:</label>
-				  <input type="e-mail" name="e-mail">
-        </div>
-			 <p class="textDatos">Correo de contacto</p>
-			 <p class="text"><img class="imglogos" src="media/emaillogo.png">E-mail: asd@gmail.com</p>
-			 <input class=inputConsulta	type="text" name="consulta" placeholder="Consulta">
-       <div>
-        <input type="reset" name="resetear" value="Limpiar formulario">
-        <input type="submit" name="sube_form" value="Enviar formulario">
-       </div>
-      </form>
-		</div>
-    <!------Footer------>
-    <div id="footer">
-      <div>
-        <p class="text-muted small mb-4 mb-lg-0">&copy; RHAM 2021. Todos los derechos reservados.</p>
-        <img class="editRedes" src="media/instagram.png"alt="redsocial"><a class="links" href="https://www.instagram.com/?hl=es">Instagram</a>
       </div>
-      <div>
-        <img class="editRedes" src="media/twitter.png" alt="redsocial"><a class="links" href="https://twitter.com/?lang=es">Twitter</a>
-      </div>
-    </div>
-  </div>   
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    </div>   
+  	<script src= "https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity= "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin= "anonymous"></script>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity= "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin= "anonymous"></script>
+    <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity= "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin= "anonymous"></script>
+  </body>
 </html>

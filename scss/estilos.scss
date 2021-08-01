@@ -26,14 +26,6 @@ a{
 	text-transform: uppercase;
 	letter-spacing: 13px;
 }
-h2{
-	text-align: center;
-	color: #F8F1F1;font-size: 45px;
-	font-style: italic;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 13px;
-}
 .bg-color{
 	background-color: #000000;
 }
@@ -105,6 +97,10 @@ p{
 	background-color: #0C4271;
 	color: #171717;
 }
+/*Css Nosotros*/
+.info{
+	line-height: 1.8;
+}
 /*Css Contacto*/
 .headerOtherSections{
 	background-image: url(../media/inicio.png);
@@ -145,10 +141,10 @@ p{
 	background-color: #171717;
 	color: #F9F9F9;
 }
-.imglogos{
+.imgLogos{
 	height: 20px;
 }
-.imglogos:hover{
+.imgLogos:hover{
 	cursor: pointer;
 	transform: translateY(-4px);
 	transition: all cubic-bezier(0.215, 0.610, 0.355, 1)
@@ -193,7 +189,7 @@ input:hover{
 		height: 145px;
 		width: 100%;
 	}
-	.imglogos{
+	.imgLogos{
 		height: 33px;
 		width: 23px;
 	}
