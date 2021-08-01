@@ -208,6 +208,8 @@ input:hover {
     font-style: italic;
     padding-top: 12px;
     margin-top: 16px; }
+  iframe {
+    width: 100%; }
   .newsletter {
     align-content: start;
     text-align: left;
